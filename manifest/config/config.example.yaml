@@ -1,0 +1,47 @@
+server:
+  name: "lark-hotel-server"
+  address:     ":8808"
+  # api调用Authorization token
+  api_token: ""
+
+logger:
+  level : "all"
+  stdout: true
+
+lark:
+  # 飞书应用app_id
+  app_id: ""
+  # 飞书应用app_secret
+  app_secret: ""
+  # 运营数据-多维表格模板app_token
+  word_template_app_token: ""
+  # 运营数据-多维表格模板table_name
+  word_template_table_name: "收入明细数据"
+  # 运营数据-多维表格文件夹folder_token，每天定时创建的运营表格都会放到这里
+  word_app_folder_token: ""
+  # 年度账单-多维表格app_token
+  annual_statistics_app_token: ""
+  # 年度账单-多维表格table_id
+  annual_statistics_table_id: ""
+  # 飞书管理员user_id，用于消息通知
+  manager_user_id: ""
+  # 飞书机器人名称，可更改，注意要与飞书机器人配置的名称一致，代码中有进行校验
+  bot_name: "日营业数据应用"
+  # 定时同步开关，防止多服务运行时重复执行定时任务
+  timing_sync_doc_data: false
+  # sql agent调用接口地址
+  sql_agent_api_url: ""
+  # sql agent api authorization token
+  sql_agent_api_token: ""
+
+database:
+  default:
+    # 数据库连接，example "mysql:username:password@tcp(url:3306)/database?loc=Local&parseTime=true"
+    link: ""
+    role:          "master"
+    debug:         "true"
+    dryrun:        0
+    charset:       "utf8mb4"
+    maxIdle:       "10"
+    maxOpen:       "100"
+    maxLifetime:   "30s"

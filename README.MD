@@ -26,7 +26,11 @@ https://da4jh6e6v50.feishu.cn/base/IKZQblceDaAuD8sa0YQcon9Sn3f
 ```bash
 git clone https://github.com/jet135/lark-hotel-server.git
 ```
-2、Profile configuration(manifest/config/config.yaml)
+2、Profile configuration
+```bash
+# 在 manifest/config/下创建config.yaml并配置，参考manifest/config/config.example.yaml
+```
+(manifest/config/config.yaml)
 3、Initialize database table(manifest/sql/lark-hotel-server.sql)
 4、Run locally
 ```bash
