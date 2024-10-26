@@ -1,0 +1,22 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  # 热更新
+#  run:
+#    watchPaths:
+#      - internal/*.go
+  gen:
+    dao:
+      # 数据库连接，example "mysql:username:password@tcp(url:3306)/database"
+      - link: ""
+        stdTime: true
+        descriptionTag: true
+  build:
+    path: "./bin"
+    arch: "amd64"
+    system: "linux"
+  docker:
+    build: "-a amd64 -s linux -p temp -ew"
+#    tagPrefixes:
+#      - my.image.pub/my-app
