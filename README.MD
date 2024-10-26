@@ -1,6 +1,8 @@
 # 基于飞书搭建的酒店管理服务
 没有前端代码，完全基于飞书多维表格搭建，以飞书表格数据为主，程序对接飞书开放平台接口将表格数据同步至Mysql
+
 web框架为Goframe
+
 这是一个业务属性比较重的项目，实际上通用性不强，但是这个服务实现了信息数字化，让数据能够被使用，成本仅为一台服务器费用（飞书个人企业版是免费使用的），作为一个go web服务，希望对大家有参考意义
 
 ## Features
@@ -17,6 +19,7 @@ web框架为Goframe
 
 运营数据-多维表格模板：
 https://da4jh6e6v50.feishu.cn/base/WT4Nbxh1ua1ybfsCJKzcjukanzb
+
 年度账单-多维表格模板：
 https://da4jh6e6v50.feishu.cn/base/IKZQblceDaAuD8sa0YQcon9Sn3f
 
@@ -30,8 +33,11 @@ git clone https://github.com/jet135/lark-hotel-server.git
 ```bash
 # 在 manifest/config/下创建config.yaml并配置，参考manifest/config/config.example.yaml
 ```
-(manifest/config/config.yaml)
-3、Initialize database table(manifest/sql/lark-hotel-server.sql)
+
+3、Initialize database table
+```bash
+# 执行sql脚本 manifest/sql/lark-hotel-server.sql
+```
 4、Run locally
 ```bash
 # prefix：Need to install gf
