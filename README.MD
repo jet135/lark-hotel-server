@@ -4,7 +4,7 @@
 web框架为Goframe
 
 这是一个业务属性比较重的项目，实际上通用性不强，但是这个服务实现了信息数字化，让数据能够被使用，成本仅为一台服务器费用（飞书个人企业版是免费使用的），作为一个go web服务，希望对大家有参考意义
-
+___
 ![operational_data_statistics.png](./media/operational_data_statistics.png)
 ![operational_data_word.png](./media/operational_data_word.png)
 ![chat_query_kh.png](./media/chat_query_kh.png)
