@@ -5,6 +5,11 @@ web框架为Goframe
 
 这是一个业务属性比较重的项目，实际上通用性不强，但是这个服务实现了信息数字化，让数据能够被使用，成本仅为一台服务器费用（飞书个人企业版是免费使用的），作为一个go web服务，希望对大家有参考意义
 
+![operational_data_statistics.png](./media/operational_data_statistics.png)
+![operational_data_word.png](./media/operational_data_word.png)
+![chat_query_kh.png](./media/chat_query_kh.png)
+![annual_statistics.png](./media/annual_statistics.png)
+
 ## Features
 - Chrome浏览器插件（manifest/chrome_plugin）实现身份证录入时，调用服务器接口上报信息，服务器调用飞书接口将信息新增至表格
 - 飞书表格内记录客房信息（房号、房价等..），多维表格实时展示数据报表
