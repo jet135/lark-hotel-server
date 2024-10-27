@@ -1,4 +1,7 @@
 # 基于飞书搭建的酒店管理服务
+[![goframe](https://img.shields.io/badge/goframe-2.0-green)](https://goframe.org/pages/viewpage.action?pageId=1114119)
+[![license](https://img.shields.io/badge/license-MIT-success)](./LICENSE)
+
 没有前端代码，完全基于飞书多维表格搭建，以飞书表格数据为主，程序对接飞书开放平台接口将表格数据同步至Mysql
 
 web框架为Goframe
